@@ -1,0 +1,12 @@
+/* Reset default styles and set the font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Remove underlines from links */
+a {
+    text-decoration: none;
+}

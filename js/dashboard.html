@@ -157,7 +157,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <h5>Cheers</h5>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
-        <img class="w3-circle" src="images/Cheers.jpg" style="width:96px;height:96px">
+        <i class='fas fa-glass-cheers' style='font-size:24px;color:red'></i>
       </div>
       <div class="w3-col m10 w3-container">
         <h4>User1 <span class="w3-opacity w3-medium">Sep 22, 2014, 9:12 PM</span></h4>
@@ -166,7 +166,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     </div>
     <div class="w3-row">
       <div class="w3-col m2 text-center">
-        <img class="w3-circle" src="images/Cheers.jpg" style="width:96px;height:96px">
+        <i class='fas fa-glass-cheers' style='font-size:24px;color:red'></i>
       </div>
       <div class="w3-col m10 w3-container">
         <h4>User2 <span class="w3-opacity w3-medium">April 7, 2014, 10:15 PM</span></h4>
@@ -202,6 +202,11 @@ function w3_open() {
 function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
+}
+
+function getUsernName() {
+  document.getElementById("venus").username = "newUsername";
+  document.getElementById("demo").innerHTML = "The username was changed from 'johnsmith' to 'newUsername'.";
 }
 </script>
 
